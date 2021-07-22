@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app:
+    container_name: crio_server
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"
+    links:
+      - mongo
+  mongo:
+    container_name: crio_mongo
+    image: mongo
+    ports:
+      - "49155:27017"
+    volumes:
+      - ./data:/data/db
