@@ -17,7 +17,7 @@ const cron = require('node-cron');
 const paypal = require('paypal-rest-sdk');
 
 
-/*const CLIENT = 'AQ4cbpmlGDKNz3iDpDvFAoiGFhfS73UZJiHBjRBRZ1FLQblD1fBv6R4HYjjjXdrVj-ka39NUXkTUQAvV';
+/*const CLIENT = 'AQ4cbpmlGDKNz3iDpDvFAoiGFhfS73UZJiHBjRBRZ1FLQblD1fBv6R4HYjjjXdrVj-ka39NUXkTUQAvV==========================';
 const SECRET = 'EBQysA-YzNPRGc4NTFLNXqlEU0LslegxYZk8PrjbLRSFSWCxgizKYjqudOQ8nBmb3N16c08mK9FwVC2h';
 const PAYPAL_API = 'https://api.sandbox.paypal.com';*/
 const CLIENT = config.paypalDevClient;
