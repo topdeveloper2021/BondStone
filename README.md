@@ -16,7 +16,7 @@ Getting Started
 
 ```sh
 # clone it
-git clone https://github.com/VladimirHorbatovski/Bondstone-backend.git
+git clone https://github.com/BondStone/Bondstone-backend.git
 cd Bondstone-backend
 
 # Make it your own
